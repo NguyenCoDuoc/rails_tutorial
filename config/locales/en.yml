@@ -1,33 +1,51 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  static_pages:
+    home:
+      welcome: "Welcome to the Sample App"
+      this_is_the_home: "This is the home page for the"
+      ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
+      sing_up_now: "Sing up now"
+      sample_application: "Sample_application"
+    help:
+      book: "book"
+      help: "Help"
+      get_help: "Get help on the Ruby on Rails Tutorial at the"
+      rails_tutorial_help_section: "Rails Tutorial help section"
+      to_get_help: "To get help on this sample app, see the"
+      ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
+    about:
+      is_a: "is a"
+      the: "The"
+      about: "About"
+      ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
+      book: "book"
+      and: "and"
+      screencast_series: "screencast services"
+      to_teach_web: "to teach web development wiht"
+      ruby_on_rails: "Ruby on Rails"
+      this_is_the_sample_app: "This is the sample application for the tutorial"
+    contact:
+      contact: "Contact"
+      contact_the_ruby_on_rails: "Ruby on Rails Tutorial bout the sample app at the"
+      contact_page: "Contact page"
+    _footer:
+      the: "The"
+      ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
+      by: "by"
+      michael_hartl: "Michael Hartl"
+      about: "About"
+      contact: "Contact"
+      news: "News"
+      by: "by"
+    _header:
+      sample_app: "Sample app"
+      home: "Home"
+      help: "Help"
+      log_in: "Log in"
+  users:
+    new:
+      user_new: "User_new"
+      find_me_in: "Find me in app/views/users/new.html.erb"
+  layouts:
+    application:
+      ruby_on_rails: "Ruby on Rails Tutorial Sample App"
