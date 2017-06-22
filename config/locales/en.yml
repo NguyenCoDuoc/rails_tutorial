@@ -3,6 +3,13 @@ en:
     _error_messages:
       error: "Error"
       the_form_contains: "The form contains"
+  sessions:
+    create:
+      invalid_email/password: "Invalid email/password combination"
+    new:
+      log_in: "log_in"
+      new_users: "New Users?"
+      sign_up_now: "Sign up now!"
   static_pages:
     home:
       rails_logo: "Rails logo"
@@ -36,17 +43,22 @@ en:
     _footer:
       about: "About"
       by: "by"
-      by: "by"
       contact: "Contact"
       michael_hartl: "Michael Hartl"
       news: "News"
       ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
       the: "The"
     _header:
+      account: "Account"
       help: "Help"
       home: "Home"
       log_in: "Log in"
+      log_in: "Log in"
+      log_out: "Log out"
+      profile: "Profile"
       sample_app: "Sample app"
+      settings: "Setting"
+      users: "Users"
   users:
     create:
       welcome_to_the_sample_app: "Welcome to the Sample App!"
