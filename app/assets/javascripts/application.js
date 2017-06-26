@@ -1,5 +1,8 @@
 //= require rails-ujs
 //= require turbolinks
+//= require jquery
+//= require jquery_ujs
+//= require bootstrap
 //= require_tree .
 //= require i18n
 //= require i18n.js
