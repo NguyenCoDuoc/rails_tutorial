@@ -7,8 +7,12 @@ en:
     create:
       invalid_email/password: "Invalid email/password combination"
     new:
-      log_in: "log_in"
+      email: "Email"
+      log_in: "Log in"
       new_users: "New Users?"
+      password: "Password"
+      remember_me: "Remember me"
+      remember_me_on_this_computer: "Remember me on this Computer"
       sign_up_now: "Sign up now!"
   static_pages:
     home:
