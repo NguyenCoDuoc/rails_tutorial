@@ -3,3 +3,13 @@ models:
     maximum_name: 50
     maximum_email: 255
     minimum_pass: 6
+
+helpers:
+  users_helper:
+    size: 80
+views:
+  user:
+    size: 50
+users:
+  page:
+    number_member: 5

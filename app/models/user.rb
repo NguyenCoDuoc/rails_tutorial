@@ -10,7 +10,7 @@ class User < ApplicationRecord
     length: {maximum: Settings.models.users.maximum_email},
     format: {with: VALID_EMAIL_REGEX},
     uniqueness: {case_sensitive: false}
-  validates :password, presence: true,
+  validates :password, presence: true, allow_nil: true,
     length: {minimum: Settings.models.users.minimum_pass}
 
   has_secure_password
@@ -21,12 +21,14 @@ class User < ApplicationRecord
         BCrypt::Engine.cost
       BCrypt::Password.create string, cost: cost
     end
-  end
 
-  class << self
     def new_token
       SecureRandom.urlsafe_base64
     end
+  end
+
+  def is_user? user
+    self == user
   end
 
   def remember

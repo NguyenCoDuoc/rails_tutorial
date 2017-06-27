@@ -1,11 +1,13 @@
 en:
   shared:
-    _error_messages:
+    error_messages:
       error: "Error"
       the_form_contains: "The form contains"
+
   sessions:
     create:
       invalid_email/password: "Invalid email/password combination"
+
     new:
       email: "Email"
       log_in: "Log in"
@@ -14,6 +16,7 @@ en:
       remember_me: "Remember me"
       remember_me_on_this_computer: "Remember me on this Computer"
       sign_up_now: "Sign up now!"
+
   static_pages:
     home:
       rails_logo: "Rails logo"
@@ -22,6 +25,7 @@ en:
       sign_up_now: "Sign up now"
       this_is_the_home: "This is the home page for the"
       welcome: "Welcome to the Sample App"
+
     help:
       book: "book."
       get_help: "Get help on the Ruby on Rails Tutorial at the"
@@ -29,6 +33,7 @@ en:
       rails_tutorial_help_section: "Rails Tutorial help section"
       ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
       to_get_help: "To get help on this sample app, see the"
+
     about:
       about: "About"
       and: "and"
@@ -40,11 +45,13 @@ en:
       the: "The"
       this_is_the_sample_app: "This is the sample application for the tutorial."
       to_teach_web: "to teach web development wiht"
+
     contact:
       contact: "Contact"
       contact_the_ruby_on_rails: "Ruby on Rails Tutorial bout the sample app at the"
       contact_page: "Contact page."
-    _footer:
+
+    footer:
       about: "About"
       by: "by"
       contact: "Contact"
@@ -52,29 +59,66 @@ en:
       news: "News"
       ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
       the: "The"
-    _header:
+
+    header:
       account: "Account"
       help: "Help"
       home: "Home"
       log_in: "Log in"
-      log_in: "Log in"
       log_out: "Log out"
       profile: "Profile"
       sample_app: "Sample app"
-      settings: "Setting"
+      settings: "Settings"
       users: "Users"
+
   users:
-    create:
-      welcome_to_the_sample_app: "Welcome to the Sample App!"
-    new:
+    index:
+      all_users: "All Users"
+      please_log_in: "Please log in"
+
+    show:
       confirmation: "Confirmation"
       create_my_account: "Create my account"
       find_me_in: "Find me in app/views/users/new.html.erb"
+      new: "new"
       sign_up: "Sign up"
       this_will: "This will be a sign up page for new users."
       user_new: "User_new"
-    show:
       warning: "Not found user!"
+
+    new:
+      sign_up: "Sign up"
+      confirmation: "Confirmation"
+      create_my_account: "Create my account"
+
+    create:
+      welcome_to_the_sample_app: "Welcome to the Sample App!"
+      error_create_user: "Error create user!"
+
+    update:
+      profile_update: "Profile update"
+      error_update: "Error update"
+
+    destroy:
+      error_delete: "Error delete"
+      error_not_admin: "Error not are admin"
+      user_deleted: "User deleted"
+
+    user:
+      delete: "Delete"
+      you_sure: "You sure?"
+
+    edit:
+      change: "Change"
+      confirmation: "Confirmation"
+      correct: "You can't update information of other account"
+      edit_user: "Edit user"
+      error_edit: "Error edit"
+      error_inconrect: "Error Inconrect"
+      please_log_in: "Please log in"
+      save_changes: "Save changes"
+      update_your_profile: "Update your profile"
+
   layouts:
     application:
       ruby_on_rails: "Ruby on Rails Tutorial Sample App"
