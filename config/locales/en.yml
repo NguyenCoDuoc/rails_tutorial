@@ -1,4 +1,7 @@
 en:
+  account_activations:
+    account_activated: "Account activated!"
+    invalid_activation_link: "Invalid activation link"
   shared:
     error_messages:
       error: "Error"
@@ -7,6 +10,8 @@ en:
   sessions:
     create:
       invalid_email/password: "Invalid email/password combination"
+      account_not_activated: "Account not activated. "
+      check_you_email: "Check your email for the activation link."
 
     new:
       email: "Email"
@@ -94,6 +99,7 @@ en:
     create:
       welcome_to_the_sample_app: "Welcome to the Sample App!"
       error_create_user: "Error create user!"
+      please_check_email: "Please check your email to activate your account."
 
     update:
       profile_update: "Profile update"
@@ -122,3 +128,11 @@ en:
   layouts:
     application:
       ruby_on_rails: "Ruby on Rails Tutorial Sample App"
+
+  user_mailer:
+    account_activation:
+      activate: "Acivate"
+      hi: "Hi"
+      sample_app: "Sample app"
+      welcome_to_sample_app: "Welcome to the Sample App!
+        Click on the link below to activate your account:"
