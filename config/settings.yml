@@ -3,6 +3,7 @@ models:
     maximum_name: 50
     maximum_email: 255
     minimum_pass: 6
+    time: 2
 
 helpers:
   users_helper:
