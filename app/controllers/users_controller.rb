@@ -6,10 +6,12 @@ class UsersController < ApplicationController
 
   def index
     @users = User.paginate page: params[:page],
-      per_page: Settings.users.page.number_member
+      per_page: Settings.users.page.number_member_user
   end
 
   def show
+    @microposts = @user.microposts.paginate page: params[:page],
+      per_page: Settings.users.page.number_member_micropost
   end
 
   def new
@@ -55,13 +57,6 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit :name, :email, :password,
       :password_confirmation
-  end
-
-  def logged_in_user
-    return if logged_in?
-    store_location
-    flash[:danger] = t ".please_log_in"
-    redirect_to login_url
   end
 
   def correct_user
