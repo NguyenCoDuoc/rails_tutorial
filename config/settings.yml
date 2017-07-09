@@ -4,13 +4,26 @@ models:
     maximum_email: 255
     minimum_pass: 6
     time: 2
+  microposts:
+    size_post: 140
+    size_bit: 5
 
 helpers:
   users_helper:
     size: 80
+
 views:
   user:
     size: 50
+  micropost:
+    size_img: 50
+  user_info:
+    size_img: 50
+
 users:
   page:
-    number_member: 5
+    number_member_user: 5
+    number_member_micropost: 6
+
+uploads:
+  size_img: 200

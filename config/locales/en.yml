@@ -1,4 +1,5 @@
 en:
+  should_be_less_than_5mb: "should be less than 5MB"
   account_activations:
     account_activated: "Account activated!"
     invalid_activation_link: "Invalid activation link"
@@ -7,6 +8,12 @@ en:
     error_messages:
       error: "Error"
       the_form_contains: "The form contains"
+    micropost_form:
+      post: "Post"
+      compose_new_micropost: "Compose new micropost..."
+    user_info:
+      view_my_profile: "View my profile"
+      micropost: "Micropost"
 
   sessions:
     create:
@@ -25,6 +32,7 @@ en:
 
   static_pages:
     home:
+      micropost_feed: "Micropost Feed"
       rails_logo: "Rails logo"
       ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
       sample_application: "Sample_application"
@@ -85,6 +93,7 @@ en:
       this_will: "This will be a sign up page for new users."
       user_new: "User_new"
       warning: "Not found user!"
+      microposts: "Microposts"
     new:
       sign_up: "Sign up"
       confirmation: "Confirmation"
@@ -114,8 +123,23 @@ en:
       save_changes: "Save changes"
       update_your_profile: "Update your profile"
 
+  microposts:
+    create:
+      micropost_created: "Micropost created!"
+      not_post: "Not Post"
+    destroy:
+      micropost_deleted: "Micropost deleted!"
+      not_delete: "Not delete"
+    micropost:
+      posted: "Posted"
+      ago: "ago."
+      delete: "delete"
+      you_sure: "You Sure ?"
+      should_be_less_than_5MB: "Should be less than 5MB"
+
   layouts:
     application:
+      please_log_in: "Please log in"
       ruby_on_rails: "Ruby on Rails Tutorial Sample App"
 
   user_mailer:
