@@ -24,6 +24,8 @@ users:
   page:
     number_member_user: 5
     number_member_micropost: 6
-
+    number_member_following: 10
+    number_member_followers: 10
+  size_for_gravata_user_follow: 30
 uploads:
   size_img: 200

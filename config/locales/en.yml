@@ -14,6 +14,9 @@ en:
     user_info:
       view_my_profile: "View my profile"
       micropost: "Micropost"
+    stats:
+      followers: "Followers"
+      following: "Following"
 
   sessions:
     create:
@@ -94,6 +97,9 @@ en:
       user_new: "User_new"
       warning: "Not found user!"
       microposts: "Microposts"
+    show_follow:
+      microposts: "Microposts"
+      view_my_profile: "View my profile"
     new:
       sign_up: "Sign up"
       confirmation: "Confirmation"
@@ -102,6 +108,10 @@ en:
       welcome_to_the_sample_app: "Welcome to the Sample App!"
       error_create_user: "Error create user!"
       please_check_email: "Please check your email to activate your account."
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
     update:
       profile_update: "Profile update"
       error_update: "Error update"
@@ -122,6 +132,10 @@ en:
       please_log_in: "Please log in"
       save_changes: "Save changes"
       update_your_profile: "Update your profile"
+    following:
+      following: "Following"
+    followers:
+      followers: "Followers"
 
   microposts:
     create:
@@ -136,6 +150,15 @@ en:
       delete: "delete"
       you_sure: "You Sure ?"
       should_be_less_than_5MB: "Should be less than 5MB"
+
+  relationships:
+    create:
+      can_not_follow_user: "Can not follow user"
+      not_found_user: "Not found user"
+
+    destroy:
+      can_not_follow_user: "Can not follow user"
+      not_found_user: "Not found user"
 
   layouts:
     application:
